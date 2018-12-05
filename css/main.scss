@@ -1,0 +1,24 @@
+body{
+    perspective: 1000px;
+    background-color: #000000;
+    //background-color: #FFFFFF;
+}
+.letterCan{
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: inline-block;
+    margin: auto auto;
+    div{
+        position: absolute;
+    }
+    .outSide{
+        //background-color: rgba(200,200,200,.2)
+        //background-image: url('../images/s.png');
+        background-image: url('../images/b3.gif');
+        //background-size: cover;
+    }
+    .inSide{
+        //background-size: cover;
+        background-image: url('../images/b2.gif');
+    }
+}

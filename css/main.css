@@ -1,0 +1,27 @@
+body {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  background-color: #000000;
+}
+
+.letterCan {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: inline-block;
+  margin: auto auto;
+}
+
+.letterCan div {
+  position: absolute;
+}
+
+.letterCan .outSide {
+  background-image: url("../images/b3.gif");
+}
+
+.letterCan .inSide {
+  background-image: url("../images/b2.gif");
+}
+/*# sourceMappingURL=main.css.map */
